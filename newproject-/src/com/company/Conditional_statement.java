@@ -1,5 +1,5 @@
 package com.company;
-import java.sql.SQLOutput;
+//import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Conditional_statement {
     public static void main(String[] args){
