@@ -282,5 +282,6 @@ public class Conditional_statement {
         for (int j = 0; j < num; j++){
             System.out.println(result[j]);
         }
+        sc.close();
     }
 }

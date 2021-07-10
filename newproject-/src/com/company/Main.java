@@ -1,5 +1,5 @@
 package com.company;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
 
@@ -76,10 +76,23 @@ public class Main {
         //Using Parameterised Constructor
 
 
-        Student rob = new Student(5, 98,76,99);
-        System.out.println("ID = " + rob.id);
-        System.out.println("Physics = " + rob.phy);
-        System.out.println("Chemistry = " + rob.chem);
-        System.out.println("Maths = " + rob.maths);
+        // Student rob = new Student(5, 98,76,99);
+        // System.out.println("ID = " + rob.id);
+        // System.out.println("Physics = " + rob.phy);
+        // System.out.println("Chemistry = " + rob.chem);
+        // System.out.println("Maths = " + rob.maths);
+
+        double num,num2;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number" );
+         num = sc.nextDouble();
+        System.out.println("Enter the second number ");
+         num2 = sc.nextDouble();
+        Double d= num;
+        Double d2= num2;
+        Double result;
+        result = d/d2;
+        System.out.println("Division = " + result);
+        sc.close();
     }
 }
